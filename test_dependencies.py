@@ -1,6 +1,5 @@
 errors = []
 
-
 try:
     import bs4
 except ModuleNotFoundError as e:
