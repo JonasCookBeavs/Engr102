@@ -158,7 +158,7 @@ def make_your_own_error():
     x = 9 # Oops, this isn't between 1 and 10
 
     if x < 1 or x > 10:
-        raise IndexError("The number must be between 1 and 10")
+        raise ValueError("The number must be between 1 and 10")
     
     # TODO: Run the code to see how our raised error occurs
 
