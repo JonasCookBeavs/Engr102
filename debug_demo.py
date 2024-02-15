@@ -1,4 +1,6 @@
-x = 10
+
+
+
 def main():
     x = 2
     y = 5
@@ -7,5 +9,9 @@ def main():
 
 def sum(a,b):
     return a + b
+
+
+
+
 if __name__ == "__main__":
     main()
